@@ -11,11 +11,11 @@ Generally, we know that MVC has 3 components. Model, View, and Controller. But i
 * Model – Middleware that handles the database operations
 ### Routing
 The ASP.NET MVC Routing module is responsible for mapping the incoming browser requests (i.e. the incoming URL or incoming HTTP Requests) to a particular controller action method example:the URL pattern "{controller}/{action}/{id}".
-![alt text](https://github.com/YACHNA-star/Hotel_Reservation/blob/main/url-routing.png)
+![alt text](https://github.com/YACHNA-star/Hotel_Booking/blob/main/url-routing.png)
 
 In this project default url gives view as shown below:
-![alt text](https://github.com/YACHNA-star/Hotel_Reservation/blob/main/CREATE.PNG)
+![alt text](https://github.com/YACHNA-star/Hotel_Booking/blob/main/CREATE.PNG)
 
 After filling the form when i click on save button it will post data from View--> controller --> model
-![alt text](https://github.com/YACHNA-star/Hotel_Reservation/blob/main/model_value.PNG)
+![alt text](https://github.com/YACHNA-star/Hotel_Booking/blob/main/model_value.PNG)
 then data flow from model-->controller-->
