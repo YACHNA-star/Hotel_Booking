@@ -1,0 +1,43 @@
+﻿@model List<Web.Models.HotelBooking>
+@{
+    // for c# code
+}
+<style>
+    body {
+        background-color: mediumpurple;
+    }
+
+    .tab {
+        background-color: white;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <h1>Reservation Details</h1>
+    <h6 style="color :white; "> Today's Hotel Booking details:</h6>
+
+<div class="tab" id="table">
+    <div id="table-head" class="table-row">
+        <span class="select"> </span>
+        <span>Room</span>
+        <span>Name</span>
+        <span>Total_Guest</span>
+        <span>Date_Start</span>
+        <span>Date_End</span>
+    </div>
+    @foreach(var D in Model)
+   {
+    <div class="body-row table-row">
+                <span class="select"></span>
+                <span>@D.APP_ID</span>
+        <span>@D.Name</span>
+        <span>@D.Id</span>
+        <span>@D.DateStart</span>
+        <span>@D.DateEnd</span>
+    </div>
+}
+</div>
+</body>
+</html>
